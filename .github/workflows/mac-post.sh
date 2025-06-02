@@ -1,4 +1,4 @@
-et -euo pipefail
+set -euo pipefail
 
 cd "$BASE"
 
