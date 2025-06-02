@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -euo pipefail
 
 export WORKFLOW_ROOT="/Users/runner/work/futurerestore/futurerestore/.github/workflows"
