@@ -1,5 +1,10 @@
 set -euo pipefail
 
+export WORKFLOW_ROOT="/Users/runner/work/futurerestore/futurerestore/.github/workflows"
+export DEP_ROOT="/Users/runner/work/futurerestore/futurerestore/dep_root"
+export BASE="/Users/runner/work/futurerestore/futurerestore"
+export PROCURSUS="/opt/procursus"
+
 cd "$BASE"
 
 export FUTURERESTORE_VERSION=$(git rev-list --count HEAD)
